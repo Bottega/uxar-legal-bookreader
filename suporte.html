@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Suporte do BookReader para iOS. Fale com a gente.">
+<title>BookReader — Suporte / Support</title>
+<style>
+  :root { --bg:#000; --card:#111214; --line:#26282c; --fg:#f2f3f5; --muted:#9aa0a6; --dim:#6b7076; --accent:#4c8dff; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; padding:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:720px; margin:0 auto; padding:40px 22px 80px; }
+  header { text-align:center; margin-bottom:34px; }
+  header img { width:180px; max-width:60%; height:auto; margin:8px 0 22px; }
+  .kicker { color:var(--muted); font-size:.92rem; letter-spacing:.04em; text-transform:uppercase; }
+  h1 { font-size:1.75rem; line-height:1.25; margin:.4em 0 .3em; }
+  .langbar { display:flex; flex-wrap:wrap; gap:6px; justify-content:center; margin-bottom:28px; }
+  .langbar button { background:var(--card); color:var(--muted); border:1px solid var(--line);
+    border-radius:999px; padding:6px 14px; font-size:.85rem; cursor:pointer; transition:.15s; }
+  .langbar button:hover { color:var(--fg); }
+  .langbar button.active { background:var(--fg); color:#000; border-color:var(--fg); }
+  h2 { font-size:1.2rem; margin:32px 0 8px; }
+  p, li { color:#d7dade; }
+  ul { padding-left:1.2em; }
+  li { margin:5px 0; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .mail { display:inline-block; background:var(--card); border:1px solid var(--line);
+    border-radius:12px; padding:14px 20px; margin:14px 0 6px; font-size:1.05rem; }
+  .mail a { font-weight:600; }
+  footer { text-align:center; color:var(--dim); font-size:.9rem; margin-top:54px;
+    border-top:1px solid var(--line); padding-top:26px; }
+  footer a { color:var(--muted); }
+  [data-lang] { display:none; }
+  [data-lang].show { display:block; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="kicker">Suporte · Support</div>
+    <img src="logo.png" alt="UXAR">
+    <div class="langbar" id="langbar">
+      <button data-go="pt">Português</button>
+      <button data-go="en">English</button>
+      <button data-go="es">Español</button>
+      <button data-go="fr">Français</button>
+      <button data-go="de">Deutsch</button>
+      <button data-go="it">Italiano</button>
+    </div>
+  </header>
+
+  <!-- PORTUGUÊS -->
+  <main data-lang="pt">
+    <h1>Precisa de ajuda?</h1>
+    <p>Encontrou um problema, tem uma dúvida ou uma sugestão sobre o BookReader? Fale com a gente — respondemos o mais breve possível.</p>
+    <div class="mail">E-mail: <a href="mailto:uxar.app@outlook.com">uxar.app@outlook.com</a></div>
+
+    <h2>Ao relatar um problema</h2>
+    <p>Para ajudar a resolver mais rápido, inclua:</p>
+    <ul>
+      <li>O que aconteceu e em qual tela.</li>
+      <li>O formato do livro (ePub, PDF, MOBI, TXT…).</li>
+      <li>O modelo do seu aparelho e a versão do iOS.</li>
+      <li>Se possível, um passo a passo para reproduzir o problema.</li>
+    </ul>
+
+    <h2>Dicas rápidas</h2>
+    <ul>
+      <li>Muitas dúvidas comuns estão respondidas no <strong>Guia do Usuário</strong>, na tela de Ajustes do aplicativo.</li>
+      <li>Marcadores aparecem apenas em formatos com páginas fixas; PDF e TXT não usam marcadores.</li>
+      <li>Recursos de IA exigem um aparelho compatível com Apple Intelligence.</li>
+    </ul>
+
+    <h2>Privacidade</h2>
+    <p>O BookReader funciona totalmente no seu aparelho e não coleta dados. Veja a <a href="privacidade.html">Política de privacidade</a>.</p>
+  </main>
+
+  <!-- ENGLISH -->
+  <main data-lang="en">
+    <h1>Need help?</h1>
+    <p>Found a problem, have a question, or a suggestion about BookReader? Get in touch — we'll reply as soon as we can.</p>
+    <div class="mail">Email: <a href="mailto:uxar.app@outlook.com">uxar.app@outlook.com</a></div>
+
+    <h2>When reporting an issue</h2>
+    <p>To help us resolve it faster, please include:</p>
+    <ul>
+      <li>What happened and on which screen.</li>
+      <li>The book format (ePub, PDF, MOBI, TXT…).</li>
+      <li>Your device model and iOS version.</li>
+      <li>If possible, steps to reproduce the problem.</li>
+    </ul>
+
+    <h2>Quick tips</h2>
+    <ul>
+      <li>Many common questions are answered in the <strong>User Guide</strong>, in the app's Settings screen.</li>
+      <li>Bookmarks appear only in fixed-page formats; PDF and TXT don't use bookmarks.</li>
+      <li>AI features require a device that supports Apple Intelligence.</li>
+    </ul>
+
+    <h2>Privacy</h2>
+    <p>BookReader runs entirely on your device and collects no data. See the <a href="privacidade.html">Privacy policy</a>.</p>
+  </main>
+
+  <!-- ESPAÑOL -->
+  <main data-lang="es">
+    <h1>¿Necesitas ayuda?</h1>
+    <p>¿Encontraste un problema, tienes una duda o una sugerencia sobre BookReader? Escríbenos — responderemos lo antes posible.</p>
+    <div class="mail">Correo: <a href="mailto:uxar.app@outlook.com">uxar.app@outlook.com</a></div>
+
+    <h2>Al informar de un problema</h2>
+    <p>Para ayudarnos a resolverlo más rápido, incluye:</p>
+    <ul>
+      <li>Qué ocurrió y en qué pantalla.</li>
+      <li>El formato del libro (ePub, PDF, MOBI, TXT…).</li>
+      <li>El modelo de tu dispositivo y la versión de iOS.</li>
+      <li>Si es posible, los pasos para reproducir el problema.</li>
+    </ul>
+
+    <h2>Consejos rápidos</h2>
+    <ul>
+      <li>Muchas dudas comunes se responden en la <strong>Guía del usuario</strong>, en la pantalla de Ajustes de la aplicación.</li>
+      <li>Los marcadores solo aparecen en formatos con páginas fijas; PDF y TXT no usan marcadores.</li>
+      <li>Las funciones de IA requieren un dispositivo compatible con Apple Intelligence.</li>
+    </ul>
+
+    <h2>Privacidad</h2>
+    <p>BookReader funciona por completo en tu dispositivo y no recopila datos. Consulta la <a href="privacidade.html">Política de privacidad</a>.</p>
+  </main>
+
+  <!-- FRANÇAIS -->
+  <main data-lang="fr">
+    <h1>Besoin d'aide ?</h1>
+    <p>Vous avez rencontré un problème, une question ou une suggestion à propos de BookReader ? Écrivez-nous — nous répondrons dès que possible.</p>
+    <div class="mail">E-mail : <a href="mailto:uxar.app@outlook.com">uxar.app@outlook.com</a></div>
+
+    <h2>Pour signaler un problème</h2>
+    <p>Pour nous aider à le résoudre plus vite, indiquez :</p>
+    <ul>
+      <li>Ce qui s'est passé et sur quel écran.</li>
+      <li>Le format du livre (ePub, PDF, MOBI, TXT…).</li>
+      <li>Le modèle de votre appareil et la version d'iOS.</li>
+      <li>Si possible, les étapes pour reproduire le problème.</li>
+    </ul>
+
+    <h2>Astuces rapides</h2>
+    <ul>
+      <li>De nombreuses questions courantes trouvent réponse dans le <strong>Guide de l'utilisateur</strong>, dans l'écran Réglages de l'application.</li>
+      <li>Les signets n'apparaissent que dans les formats à pages fixes ; PDF et TXT n'utilisent pas de signets.</li>
+      <li>Les fonctions d'IA nécessitent un appareil compatible avec Apple Intelligence.</li>
+    </ul>
+
+    <h2>Confidentialité</h2>
+    <p>BookReader fonctionne entièrement sur votre appareil et ne collecte aucune donnée. Consultez la <a href="privacidade.html">Politique de confidentialité</a>.</p>
+  </main>
+
+  <!-- DEUTSCH -->
+  <main data-lang="de">
+    <h1>Brauchst du Hilfe?</h1>
+    <p>Ein Problem gefunden, eine Frage oder ein Vorschlag zu BookReader? Schreib uns — wir antworten so schnell wie möglich.</p>
+    <div class="mail">E-Mail: <a href="mailto:uxar.app@outlook.com">uxar.app@outlook.com</a></div>
+
+    <h2>Beim Melden eines Problems</h2>
+    <p>Damit wir schneller helfen können, gib bitte an:</p>
+    <ul>
+      <li>Was passiert ist und auf welchem Bildschirm.</li>
+      <li>Das Buchformat (ePub, PDF, MOBI, TXT…).</li>
+      <li>Dein Gerätemodell und die iOS-Version.</li>
+      <li>Wenn möglich, die Schritte zum Reproduzieren des Problems.</li>
+    </ul>
+
+    <h2>Schnelle Tipps</h2>
+    <ul>
+      <li>Viele häufige Fragen werden im <strong>Benutzerhandbuch</strong> im Einstellungsbildschirm der App beantwortet.</li>
+      <li>Lesezeichen erscheinen nur in Formaten mit festen Seiten; PDF und TXT nutzen keine Lesezeichen.</li>
+      <li>KI-Funktionen erfordern ein Gerät, das Apple Intelligence unterstützt.</li>
+    </ul>
+
+    <h2>Datenschutz</h2>
+    <p>BookReader läuft vollständig auf deinem Gerät und erhebt keine Daten. Siehe die <a href="privacidade.html">Datenschutzerklärung</a>.</p>
+  </main>
+
+  <!-- ITALIANO -->
+  <main data-lang="it">
+    <h1>Ti serve aiuto?</h1>
+    <p>Hai riscontrato un problema, hai una domanda o un suggerimento su BookReader? Scrivici — risponderemo il prima possibile.</p>
+    <div class="mail">E-mail: <a href="mailto:uxar.app@outlook.com">uxar.app@outlook.com</a></div>
+
+    <h2>Per segnalare un problema</h2>
+    <p>Per aiutarci a risolverlo più in fretta, indica:</p>
+    <ul>
+      <li>Cosa è successo e in quale schermata.</li>
+      <li>Il formato del libro (ePub, PDF, MOBI, TXT…).</li>
+      <li>Il modello del tuo dispositivo e la versione di iOS.</li>
+      <li>Se possibile, i passaggi per riprodurre il problema.</li>
+    </ul>
+
+    <h2>Consigli rapidi</h2>
+    <ul>
+      <li>Molte domande comuni trovano risposta nella <strong>Guida utente</strong>, nella schermata Impostazioni dell'app.</li>
+      <li>I segnalibri compaiono solo nei formati a pagine fisse; PDF e TXT non usano segnalibri.</li>
+      <li>Le funzioni di IA richiedono un dispositivo che supporti Apple Intelligence.</li>
+    </ul>
+
+    <h2>Privacy</h2>
+    <p>BookReader funziona interamente sul tuo dispositivo e non raccoglie dati. Consulta l'<a href="privacidade.html">Informativa sulla privacy</a>.</p>
+  </main>
+
+  <footer>
+    BookReader ·
+    <a href="privacidade.html">Privacidade / Privacy</a> ·
+    <a href="termos.html">Termos de uso / Terms</a>
+  </footer>
+</div>
+
+<script>
+  (function () {
+    var supported = ["pt","en","es","fr","de","it"];
+    function setLang(l) {
+      if (supported.indexOf(l) < 0) l = "en";
+      document.querySelectorAll("[data-lang]").forEach(function (el) {
+        el.classList.toggle("show", el.getAttribute("data-lang") === l);
+      });
+      document.querySelectorAll("#langbar button").forEach(function (b) {
+        b.classList.toggle("active", b.getAttribute("data-go") === l);
+      });
+      document.documentElement.lang = l;
+      try { localStorage.setItem("uxar_lang", l); } catch (e) {}
+    }
+    document.querySelectorAll("#langbar button").forEach(function (b) {
+      b.addEventListener("click", function () { setLang(b.getAttribute("data-go")); });
+    });
+    var saved; try { saved = localStorage.getItem("uxar_lang"); } catch (e) {}
+    var initial = saved || (navigator.language || "en").slice(0, 2).toLowerCase();
+    setLang(initial);
+  })();
+</script>
+</body>
+</html>
